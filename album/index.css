@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Cafe: 24Dongdong";
+  src : url("font/Cafe24Dongdong.ttf") format("TrueType")
+}
+
+body{
+  * {
+    font-family: "Cafe: 24Dongdongd:";
+
+  }
+  .mytitle {
+    height: 250px;
+    color: white;
+
+    display: flex;
+    flex-direction: column; /*row :  가로로 됨 포트폴리오 할때 사용*/
+    align-items: center;
+    justify-content: center;
+
+    background-image:  url('image/01_album_image.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .mytitle_btn {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+
+  }
+  .mycards {
+    width: 1200px;
+    margin: 30px auto 0px auto;
+  }
+
+  .mypostingbox {
+    width: 500px;
+    margin: 30px auto 0px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 3px 0px blue;
+    border-radius: 5px;
+  }
+
+  .mybtn {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mybtn button {
+    margin-right: 5px;
+  }
+}
