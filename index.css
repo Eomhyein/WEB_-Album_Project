@@ -6,8 +6,8 @@
 body{
   * {
     font-family: "Cafe: 24Dongdongd:";
-  }
 
+  }
   .mytitle {
     height: 250px;
     color: white;
@@ -28,13 +28,11 @@ body{
     color: white;
     border: 1px solid white;
     border-radius: 5px;
-
     margin-top: 20px;
 
   }
   .mycards {
     width: 1200px;
-
     margin: 30px auto 0px auto;
   }
 
@@ -52,9 +50,8 @@ body{
     align-items: center;
     justify-content: center;
   }
+
   .mybtn button {
     margin-right: 5px;
   }
-
-
 }
