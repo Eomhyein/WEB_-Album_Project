@@ -6,11 +6,12 @@ import { getDocs } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-fire
 
 //Firebase 내꺼 주소 노출 안되게 올리기
 const firebaseConfig = {
-
 };
-// Firebase 인스턴스 초기화
+
+//Firebase 인스턴스 초기화
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+
 
 //id 값에 click을 준 것!
 $("#postingbtn").click(async function () {
